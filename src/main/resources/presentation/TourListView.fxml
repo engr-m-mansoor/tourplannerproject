@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ListView?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.TourListController">
+    <ListView fx:id="listView" layoutX="5.0" minHeight="600" layoutY="3.0" onMouseClicked="#tourItemClicked"></ListView>
+    <HBox >
+        <Button text="Import" fx:id="importButton" styleClass="editButton" onAction="#importData"></Button>
+        <Pane HBox.hgrow="ALWAYS" />
+        <Button text="Export" fx:id="exportButton" styleClass="editButton" onAction="#exportData"></Button>
+    </HBox>
+</VBox>

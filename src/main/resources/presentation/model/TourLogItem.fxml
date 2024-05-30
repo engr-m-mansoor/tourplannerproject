@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml" fx:id="box" fx:controller="presentation.controller.TourLogCellController">
+    <children>
+        <StackPane prefWidth="110">
+            <Label  fx:id="date" style="-fx-label-padding: 10; -fx-alignment: center-left"/>
+        </StackPane>
+        <StackPane prefWidth="110">
+            <Label  fx:id="comment" style="-fx-label-padding: 10; -fx-alignment: center-left"/>
+            <TextField fx:id="commentInput"></TextField>
+        </StackPane>
+        <StackPane prefWidth="110">
+            <Label  fx:id="difficulty" style="-fx-label-padding: 10; -fx-alignment: center-left"/>
+            <TextField fx:id="difficultyInput"></TextField>
+        </StackPane>
+        <StackPane prefWidth="110">
+            <Label  fx:id="totalTime" style="-fx-label-padding: 10; -fx-alignment: center-left"/>
+            <TextField fx:id="totalTimeInput"></TextField>
+        </StackPane>
+        <StackPane prefWidth="110">
+            <Label  fx:id="rating" style="-fx-label-padding: 10; -fx-alignment: center-left"/>
+            <TextField fx:id="ratingInput"></TextField>
+        </StackPane>
+        <Region HBox.hgrow="ALWAYS"></Region>
+        <Button text="X" onAction="#onDeleteTourLog" style="-fx-label-padding: 10; -fx-alignment: center-right" />
+        <Button text="E" onAction="#onEditTour" style="-fx-label-padding: 10; -fx-alignment: center-right" />
+    </children>
+</HBox>

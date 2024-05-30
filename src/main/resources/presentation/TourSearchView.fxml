@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Button?>
+<HBox GridPane.rowIndex="3" GridPane.columnIndex="1" GridPane.columnSpan="3" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="presentation.controller.TourSearchController">
+    <Label contentDisplay="CENTER" text="Search:" HBox.hgrow="ALWAYS"/>
+    <TextField fx:id="searchInput"></TextField>
+    <Button text="Search" fx:id="searchButton" styleClass="saveButton" onAction="#searchTours"></Button>
+    <Pane HBox.hgrow="ALWAYS" />
+    <Button text="Export PDF" fx:id="pdfButton" styleClass="saveButton" onAction="#savePDF"></Button>
+</HBox>

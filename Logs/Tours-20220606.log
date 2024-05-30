@@ -1,0 +1,96 @@
+2022-06-06 00:16:02.051 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:02.219 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:02.765 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:02.777 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:02.795 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:02.812 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:35.737 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:35.768 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:35.828 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:35.858 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:35.885 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:35.914 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:35.944 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:35.978 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:36.010 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:36.040 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:36.071 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:36.834 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour tour 3 deleted!
+2022-06-06 00:16:36.841 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2022-06-06 00:16:36.842 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Logs of tour 3 are deleted!
+2022-06-06 00:16:36.844 [JavaFX Application Thread] INFO  presentation.model.TourModel - tour 3.jpg is deleted
+2022-06-06 00:16:36.859 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:16:38.854 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2022-06-06 00:17:00.255 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2022-06-06 00:17:02.993 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2022-06-06 00:17:03.088 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2022-06-06 00:17:11.332 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2022-06-06 00:17:13.757 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2022-06-06 00:17:13.788 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2022-06-06 00:17:20.017 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour tour 2 deleted!
+2022-06-06 00:17:20.031 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2022-06-06 00:17:20.032 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Logs of tour 2 are deleted!
+2022-06-06 00:17:20.033 [JavaFX Application Thread] INFO  presentation.model.TourModel - tour 2.jpg is deleted
+2022-06-06 00:17:25.917 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:17:25.977 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour First tour is inserted in the DB
+2022-06-06 00:17:25.978 [JavaFX Application Thread] INFO  presentation.model.TourEntryModel - Tour First tour is added (to the DB as well)
+2022-06-06 00:17:26.016 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:17:26.619 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:17:31.127 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2022-06-06 00:21:51.232 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:21:51.690 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:21:51.702 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:22:46.201 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:22:47.259 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2022-06-06 00:22:51.788 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2022-06-06 00:22:53.871 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2022-06-06 00:22:53.958 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2022-06-06 00:20:09.887 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:20:10.350 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:20:10.366 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:20:18.075 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:20:18.752 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2022-06-06 00:20:22.644 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2022-06-06 00:20:25.107 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2022-06-06 00:20:25.206 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2022-06-06 00:23:58.709 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:23:59.790 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:23:59.809 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:19:02.843 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:19:03.378 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:19:03.393 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:19:04.782 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:19:05.737 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2022-06-06 00:19:10.490 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2022-06-06 00:24:21.881 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:24:22.362 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:24:22.378 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:24:23.672 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:24:24.657 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2022-06-06 00:24:28.140 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2022-06-06 00:24:30.278 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2022-06-06 00:24:30.311 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid...
+2022-06-06 00:26:50.965 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:26:51.348 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:26:51.360 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:27:02.469 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:27:03.356 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2022-06-06 00:27:21.235 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2022-06-06 00:27:23.828 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2022-06-06 00:27:24.782 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour First tour is updated!
+2022-06-06 00:27:26.418 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:27:26.464 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:27:27.227 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:27:56.539 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2022-06-06 00:28:19.761 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2022-06-06 00:33:00.136 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:33:00.299 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2022-06-06 00:25:52.854 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:25:53.287 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:25:53.301 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:25:54.574 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2022-06-06 00:25:55.434 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2022-06-06 00:25:59.366 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2022-06-06 00:26:01.950 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2022-06-06 00:26:02.006 [JavaFX Application Thread] INFO  service.ServiceImp - vjen itu
+2022-06-06 00:26:02.006 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid

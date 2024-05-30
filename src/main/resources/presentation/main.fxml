@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<GridPane alignment="CENTER" hgap="10.0" minHeight="1000.0" minWidth="1200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.MainController">
+    <children>
+
+        <MenuBar prefHeight="27.0" prefWidth="800.0" GridPane.rowIndex="1" GridPane.columnSpan="3">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Option" />
+            </menus>
+        </MenuBar>
+
+        <!--  Add Search View     -->
+        <fx:include source="TourSearchView.fxml" />
+
+
+
+        <!--  Add Tour Overview View  -->
+        <SplitPane GridPane.rowIndex="4" GridPane.rowSpan="6" GridPane.columnIndex="1" minHeight="0.0" minWidth="350" >
+            <VBox>
+                <fx:include fx:id="tourEntry" source="TourEntryView.fxml" />
+                <fx:include fx:id="tourList" source="TourListView.fxml" />
+            </VBox>
+        </SplitPane>
+
+        <SplitPane dividerPositions="0.5, 0.5" orientation="VERTICAL" minHeight="400.0" minWidth="700.0" GridPane.rowIndex="4" GridPane.columnIndex="2" GridPane.rowSpan="6">
+            <items>
+    <!--  Add Tour Details View  -->
+                <fx:include source="TourDetailsView.fxml" />
+
+    <!--  Add Tour Log View  -->
+                <fx:include source="TourLogView.fxml" />
+            </items>
+        </SplitPane>
+
+
+    </children>
+</GridPane>

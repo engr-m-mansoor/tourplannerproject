@@ -1,0 +1,572 @@
+2023-06-11 13:33:43.798 [JavaFX Application Thread] ERROR persistence.PersistencePostGres - Could not fetch all Tour Names from DB
+2023-06-11 13:33:43.801 [JavaFX Application Thread] ERROR persistence.PersistencePostGres - ERROR: relation "tours" does not exist
+  Position: 20
+2023-06-11 13:33:44.277 [JavaFX Application Thread] ERROR persistence.PersistencePostGres - Could not fetch all Tours from DB
+2023-06-11 13:33:44.278 [JavaFX Application Thread] ERROR persistence.PersistencePostGres - ERROR: relation "tours" does not exist
+  Position: 15
+2023-06-11 13:45:58.304 [JavaFX Application Thread] ERROR persistence.PersistencePostGres - Could not fetch all Tour Names from DB
+2023-06-11 13:45:58.309 [JavaFX Application Thread] ERROR persistence.PersistencePostGres - ERROR: relation "tours" does not exist
+  Position: 20
+2023-06-11 13:45:58.774 [JavaFX Application Thread] ERROR persistence.PersistencePostGres - Could not fetch all Tours from DB
+2023-06-11 13:45:58.775 [JavaFX Application Thread] ERROR persistence.PersistencePostGres - ERROR: relation "tours" does not exist
+  Position: 15
+2023-06-11 13:47:26.930 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour lkasdf is inserted in the DB
+2023-06-11 13:47:26.937 [JavaFX Application Thread] INFO  presentation.model.TourEntryModel - Tour lkasdf is added (to the DB as well)
+2023-06-11 13:47:26.940 [JavaFX Application Thread] INFO  presentation.controller.TourEntryController - Cannot add this Tour. Tour already exists!
+2023-06-11 13:47:26.963 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 13:47:26.985 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 13:47:28.765 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 13:47:32.268 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2023-06-11 13:48:01.723 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2023-06-11 13:48:02.205 [JavaFX Application Thread] ERROR service.MapQuestManager - Wrong JsonObject
+2023-06-11 13:48:02.206 [JavaFX Application Thread] ERROR service.ServiceImp - Could not save img for this Tour!
+2023-06-11 13:48:02.206 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2023-06-11 13:50:05.930 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2023-06-11 13:50:08.213 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2023-06-11 13:50:09.109 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour lkasdf is updated!
+2023-06-11 13:50:44.881 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 13:50:45.209 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 13:50:45.227 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 13:50:47.486 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 20:51:51.746 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 20:51:52.071 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 20:51:52.083 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 20:52:04.492 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 20:52:10.359 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2023-06-11 20:52:12.933 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2023-06-11 20:52:13.742 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour lkasdf is updated!
+2023-06-11 20:54:53.211 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:54:53.255 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:54:56.979 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:55:27.959 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 20:55:36.397 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:55:36.431 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:56:43.222 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 20:56:43.817 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour wien-graz is inserted in the DB
+2023-06-11 20:56:43.818 [JavaFX Application Thread] INFO  presentation.model.TourEntryModel - Tour wien-graz is added (to the DB as well)
+2023-06-11 20:56:45.125 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 20:56:45.130 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 20:56:47.381 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2023-06-11 20:57:32.176 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2023-06-11 20:57:34.828 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2023-06-11 20:57:35.792 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour wien-graz is updated!
+2023-06-11 20:57:35.796 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2023-06-11 20:57:38.176 [JavaFX Application Thread] INFO  service.ServiceImp - Img is saved!
+2023-06-11 20:57:39.190 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour wien-graz is updated!
+2023-06-11 20:57:58.121 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:57:58.151 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:58:00.191 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:58:14.799 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:58:16.000 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:58:16.008 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 20:58:33.478 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 20:58:34.060 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 20:58:37.771 [JavaFX Application Thread] INFO  service.ServiceImp - PDF is saved
+2023-06-11 21:22:07.431 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 21:22:07.598 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 21:22:07.635 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 21:22:07.636 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 21:32:01.650 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 21:32:01.851 [main] INFO  persistence.PersistencePostGres - Tour  deleted!
+2023-06-11 21:32:01.890 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 21:32:01.891 [main] INFO  persistence.PersistencePostGres - Logs of  are deleted!
+2023-06-11 22:12:59.618 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:12:59.821 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:12:59.862 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:12:59.863 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:13:52.705 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:13:52.792 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:14:47.063 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:14:47.106 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:15:17.657 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:15:17.703 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:15:54.997 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:15:55.069 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:15:55.396 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:15:55.446 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:15:55.447 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:17:20.307 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:17:20.526 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:17:20.564 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:17:20.565 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:17:21.238 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:17:21.284 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:17:21.456 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:17:21.494 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:17:21.495 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:17:22.548 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:17:22.748 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:17:22.788 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:17:22.788 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:17:23.399 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:17:23.456 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:17:23.644 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:17:23.682 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:17:23.683 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:17:24.592 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:17:24.653 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:17:24.851 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:17:24.890 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:17:24.890 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:20:20.995 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:20:21.077 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:20:21.357 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:20:21.395 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:20:21.396 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:20:22.079 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:20:22.245 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:20:22.301 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:20:22.302 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:20:22.932 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:20:22.972 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:20:23.172 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:20:23.211 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:20:23.211 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:20:24.345 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:20:24.439 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:20:24.626 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:20:24.665 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:20:24.666 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:20:25.326 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:20:25.494 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:20:25.537 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:20:25.538 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:20:26.188 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:20:26.229 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:20:26.444 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:20:26.483 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:20:26.483 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:20:27.085 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:20:27.129 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:20:27.334 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:20:27.371 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:20:27.371 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:20:28.040 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:20:28.082 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:20:28.251 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:20:28.290 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:20:28.290 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:20:28.866 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:20:28.937 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:20:29.114 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:20:29.155 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:20:29.155 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:20:29.756 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:20:29.795 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:20:29.978 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:20:30.015 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:20:30.016 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:36:15.506 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:36:15.553 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:36:15.720 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:36:15.760 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:36:15.761 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:36:16.282 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:36:16.439 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:36:16.476 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:36:16.477 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:36:16.960 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:36:17.032 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:36:17.208 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:36:17.270 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:36:17.271 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:36:18.325 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:36:18.393 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:36:18.561 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:36:18.598 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:36:18.599 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:36:19.223 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:36:19.428 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:36:19.467 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:36:19.467 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:36:20.128 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:36:20.184 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:36:20.527 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:36:20.568 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:36:20.568 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:36:21.195 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:36:21.235 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:36:21.388 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:36:21.428 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:36:21.429 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:36:21.904 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:36:21.945 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:36:22.095 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:36:22.132 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:36:22.132 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:36:22.605 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:36:22.645 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:36:22.806 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:36:22.847 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:36:22.847 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:36:23.477 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:36:23.535 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:36:23.717 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:36:23.755 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:36:23.755 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:42:32.643 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:42:32.767 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:42:58.346 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:42:58.555 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:42:58.791 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:42:58.855 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:42:58.856 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:12.626 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:12.714 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:43:12.894 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:12.941 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:12.942 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:13.561 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:13.767 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:43:13.936 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:13.974 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:13.975 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:14.526 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:14.816 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:14.863 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:14.863 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:15.778 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:15.883 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:43:16.194 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:16.234 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:16.234 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:19.482 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:19.566 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:43:20.320 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:20.574 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:20.574 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:21.928 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:22.665 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:22.939 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:22.939 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:24.205 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:24.246 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:43:24.414 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:24.452 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:24.453 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:25.371 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:25.463 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:43:25.708 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:25.806 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:25.806 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:27.886 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:27.976 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:43:28.817 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:29.290 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:29.291 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:30.638 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:30.905 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:43:31.149 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:31.318 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:31.319 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:43:34.276 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:43:34.318 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:43:34.540 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:43:34.783 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:43:34.783 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:46:07.515 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:46:07.776 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:46:12.629 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:46:15.053 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:46:15.055 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:46:24.143 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:46:25.833 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:46:26.607 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:46:26.684 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:46:26.684 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:46:27.690 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:46:28.137 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:46:28.431 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:46:28.477 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:46:28.477 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:46:29.482 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:46:29.913 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:46:29.957 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:46:29.958 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:46:31.519 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:46:31.652 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:46:32.202 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:46:32.600 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:46:32.601 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:46:44.018 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:46:51.227 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:46:56.993 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:46:58.100 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:46:58.101 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:47:12.283 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:47:12.326 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:47:14.635 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:47:15.866 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:47:15.866 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:47:25.179 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:47:26.797 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:47:26.837 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:47:26.838 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:47:33.489 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:47:33.981 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:47:38.104 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:47:39.262 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:47:39.263 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:47:42.848 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:47:45.357 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:47:48.865 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:47:48.992 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:47:48.993 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:47:51.629 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:47:51.734 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:47:51.933 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:47:51.976 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:47:51.977 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:47:54.476 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:47:54.515 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:47:55.123 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:47:55.167 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:47:55.167 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:47:55.805 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:47:55.892 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:47:57.607 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:47:57.804 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:47:57.805 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:48:02.613 [main] ERROR persistence.PersistencePostGres - Could not insert Tour in DB
+2023-06-11 22:48:02.614 [main] ERROR persistence.PersistencePostGres - ERROR: duplicate key value violates unique constraint "tours_pkey"
+  Detail: Key (id)=(3) already exists.
+2023-06-11 22:48:02.689 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:48:03.436 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:48:03.544 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:48:03.545 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:48:02.498 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:48:03.219 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:48:03.688 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:48:03.791 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:48:03.793 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:50:38.431 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:50:38.704 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:50:39.169 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:50:39.665 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:50:39.890 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:50:39.891 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:53:40.004 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:53:40.893 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:53:41.886 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:53:42.110 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:54:22.389 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:54:22.930 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:54:23.782 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:54:25.174 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:54:26.224 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:54:26.335 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:54:26.336 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:59:50.591 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:59:50.638 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:59:50.799 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:59:50.837 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:59:50.838 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:59:51.383 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:59:51.628 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:59:51.948 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:59:51.999 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:59:52.000 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:59:52.718 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:59:52.905 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:59:53.085 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:59:53.127 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:59:53.127 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:59:53.707 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:59:53.934 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:59:53.982 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:59:53.983 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:59:54.703 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:59:54.749 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 22:59:55.461 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:59:55.500 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:59:55.501 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:59:56.580 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:59:56.864 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 22:59:57.228 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 22:59:57.772 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 22:59:57.773 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 22:59:59.641 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 22:59:59.733 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:00:00.369 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:00:00.624 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:00.625 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:00:03.422 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:00:04.025 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:00:04.068 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:04.069 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:00:05.035 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:00:05.208 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:00:05.325 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:00:05.367 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:05.368 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:00:05.949 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:00:05.990 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:00:06.229 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:00:06.342 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:06.343 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:00:07.247 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:00:07.467 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:00:07.682 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:00:07.724 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:07.725 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:00:08.260 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:00:08.342 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:00:08.523 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:00:08.565 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:08.565 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:00:09.151 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:00:09.193 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:00:09.539 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:00:09.695 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:09.695 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:00:11.037 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:00:11.085 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:00:11.272 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:00:11.318 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:11.319 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:00:12.562 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:00:13.325 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:00:13.894 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:00:13.934 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:13.935 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:00:14.632 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:00:14.835 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:00:15.027 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:00:15.216 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:15.501 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:00:15.565 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:00:15.565 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:00:59.251 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:00:59.325 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:01:00.223 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:00.400 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:01:00.584 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:00.628 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:00.628 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:01.263 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:01.468 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:01:01.667 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:01.721 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:01.722 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:02.503 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:02.719 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:02.830 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:02.831 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:03.402 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:03.442 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:01:03.759 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:03.899 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:03.900 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:05.227 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:05.437 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:01:05.676 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:05.735 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:05.735 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:06.383 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:06.448 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:01:06.695 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:06.744 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:06.745 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:07.456 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:07.626 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:07.664 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:07.664 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:08.806 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:09.018 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:01:09.150 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:09.211 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:09.212 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:09.894 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:09.967 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:01:10.173 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:10.233 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:10.234 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:10.916 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:11.105 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:01:11.289 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:11.371 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:11.371 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:12.361 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:12.402 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:01:12.589 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:12.630 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:12.631 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:13.260 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:13.324 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:01:13.547 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:13.586 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:13.587 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:14.401 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:14.443 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:01:14.604 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:14.646 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:14.647 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:15.503 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:15.589 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:01:16.017 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:16.101 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:16.101 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:19.006 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:20.357 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:01:21.156 [main] INFO  persistence.PersistencePostGres - Tour Log inserted in DB
+2023-06-11 23:01:21.340 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:21.651 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:21.991 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:21.992 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:01:57.259 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is inserted in the DB
+2023-06-11 23:01:57.330 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist is updated!
+2023-06-11 23:01:57.622 [main] INFO  persistence.PersistencePostGres - Tour thisTourDoesNotExist deleted!
+2023-06-11 23:01:57.674 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2023-06-11 23:01:57.676 [main] INFO  persistence.PersistencePostGres - Logs of thisTourDoesNotExist are deleted!
+2023-06-11 23:03:36.274 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:36.353 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:36.631 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:36.644 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:36.657 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:36.672 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:41.266 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:41.462 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:41.508 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:42.814 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:42.820 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:43.000 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:43.011 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:43.087 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:43.118 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:49.093 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:49.099 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:49.278 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 23:03:49.338 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:40.740 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:40.818 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:41.067 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:41.077 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:41.088 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:41.102 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:44.930 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:45.133 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:45.178 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:45.892 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:45.935 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:46.073 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 21:20:46.107 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:24.675 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:24.688 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:24.817 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:24.830 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:24.912 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:24.940 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:25.627 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:25.633 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:25.829 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:25.870 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:26.524 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:26.530 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:26.703 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:26.715 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:26.771 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:26.797 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:27.366 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:27.370 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:27.553 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2023-06-11 22:11:27.580 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
