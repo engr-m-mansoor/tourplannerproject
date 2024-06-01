@@ -1,0 +1,12 @@
+.custom-dialog {
+    -fx-background-color: #f0f0f0; /* Set background color */
+}
+
+.custom-dialog .header-panel {
+    -fx-background-color: #4CAF50; /* Set header background color */
+}
+
+.custom-dialog .content.label {
+    -fx-font-size: 14px; /* Set font size */
+    -fx-text-fill: #333; /* Set text color */
+}
