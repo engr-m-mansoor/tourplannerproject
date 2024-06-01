@@ -18476,3 +18476,51 @@ java.sql.SQLSyntaxErrorException: Table 'tour.tours' doesn't exist
 	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-17.0.2-win.jar:?]
 	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184) ~[javafx-graphics-17.0.2-win.jar:?]
 	at java.lang.Thread.run(Thread.java:842) [?:?]
+2024-05-30 13:36:18.539 [main] INFO  persistence.PersistencePostGres - Tour Naran Tour is inserted in the DB
+2024-05-30 13:36:20.420 [main] INFO  persistence.PersistencePostGres - Tour Naran Tour is updated!
+2024-05-30 13:36:31.094 [main] INFO  persistence.PersistencePostGres - Tour Naran Tour deleted!
+2024-05-30 13:36:31.098 [main] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2024-05-30 13:36:31.100 [main] INFO  persistence.PersistencePostGres - Logs of Naran Tour are deleted!
+2024-05-30 14:44:25.945 [main] INFO  persistence.PersistencePostGres - Table 'tours' created successfully!
+2024-05-30 14:44:37.896 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour  is inserted in the DB
+2024-05-30 14:44:37.897 [JavaFX Application Thread] INFO  presentation.model.TourEntryModel - Tour  is added (to the DB as well)
+2024-05-30 14:44:37.921 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2024-05-30 14:44:37.951 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2024-05-30 14:44:39.393 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2024-05-30 14:44:39.547 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2024-05-30 14:44:39.599 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2024-05-30 14:44:40.252 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour  deleted!
+2024-05-30 14:44:40.255 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Logs from Tour are deleted!
+2024-05-30 14:44:40.256 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Logs of  are deleted!
+2024-05-30 14:44:40.257 [JavaFX Application Thread] INFO  presentation.model.TourModel - .jpg is deleted
+2024-05-30 14:44:59.474 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2024-05-30 14:44:59.525 [JavaFX Application Thread] INFO  persistence.PersistencePostGres - Tour Mans is inserted in the DB
+2024-05-30 14:44:59.526 [JavaFX Application Thread] INFO  presentation.model.TourEntryModel - Tour Mans is added (to the DB as well)
+2024-05-30 14:44:59.546 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2024-05-30 14:45:01.480 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2024-05-30 14:45:01.667 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2024-05-30 14:45:01.703 [JavaFX Application Thread] INFO  presentation.model.TourLogItemModel - Item is added to the ListView of Tour
+2024-05-30 14:45:04.352 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - State of Tour Details is flipped
+2024-05-30 14:45:28.799 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2024-05-30 14:45:29.469 [JavaFX Application Thread] ERROR service.MapQuestManager - Request route failed
+2024-05-30 14:45:29.477 [JavaFX Application Thread] ERROR service.MapQuestManager - JsonObject is null
+2024-05-30 14:45:29.477 [JavaFX Application Thread] ERROR service.ServiceImp - Could not save img for this Tour!
+2024-05-30 14:45:29.477 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2024-05-30 14:45:43.999 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2024-05-30 14:45:44.561 [JavaFX Application Thread] ERROR service.MapQuestManager - Request route failed
+2024-05-30 14:45:44.565 [JavaFX Application Thread] ERROR service.MapQuestManager - JsonObject is null
+2024-05-30 14:45:44.565 [JavaFX Application Thread] ERROR service.ServiceImp - Could not save img for this Tour!
+2024-05-30 14:45:44.565 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2024-05-30 14:45:51.600 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2024-05-30 14:45:52.149 [JavaFX Application Thread] ERROR service.MapQuestManager - Request route failed
+2024-05-30 14:45:52.153 [JavaFX Application Thread] ERROR service.MapQuestManager - JsonObject is null
+2024-05-30 14:45:52.153 [JavaFX Application Thread] ERROR service.ServiceImp - Could not save img for this Tour!
+2024-05-30 14:45:52.153 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2024-05-30 14:46:19.864 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Update Details fron Tour
+2024-05-30 14:46:20.453 [JavaFX Application Thread] ERROR service.MapQuestManager - Request route failed
+2024-05-30 14:46:20.457 [JavaFX Application Thread] ERROR service.MapQuestManager - JsonObject is null
+2024-05-30 14:46:20.458 [JavaFX Application Thread] ERROR service.ServiceImp - Could not save img for this Tour!
+2024-05-30 14:46:20.458 [JavaFX Application Thread] INFO  presentation.controller.TourDetailsController - Input from Fields is not valid
+2024-05-30 11:46:14.007 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2024-05-30 11:46:14.406 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour
+2024-05-30 11:46:14.422 [JavaFX Application Thread] INFO  presentation.model.TourItemModel - Item is added to the ListView of Tour

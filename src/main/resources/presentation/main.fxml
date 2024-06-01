@@ -5,10 +5,10 @@
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.VBox?>
-<GridPane alignment="CENTER" hgap="10.0" minHeight="1000.0" minWidth="1200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.MainController">
+<GridPane alignment="CENTER" hgap="10.0" minHeight="1000.0" minWidth="1200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.MainController" style="-fx-background-color: lightcoral;">
     <children>
 
-        <MenuBar prefHeight="27.0" prefWidth="800.0" GridPane.rowIndex="1" GridPane.columnSpan="3">
+        <MenuBar prefHeight="27.0" prefWidth="800.0" GridPane.rowIndex="1" GridPane.columnSpan="4" >
             <menus>
                 <Menu mnemonicParsing="false" text="File">
                     <items>
@@ -25,7 +25,9 @@
         </MenuBar>
 
         <!--  Add Search View     -->
-        <fx:include source="TourSearchView.fxml" />
+
+        <fx:include source="TourSearchView.fxml"  GridPane.columnSpan="2"/>
+
 
 
 
@@ -39,10 +41,10 @@
 
         <SplitPane dividerPositions="0.5, 0.5" orientation="VERTICAL" minHeight="400.0" minWidth="700.0" GridPane.rowIndex="4" GridPane.columnIndex="2" GridPane.rowSpan="6">
             <items>
-    <!--  Add Tour Details View  -->
+                <!--  Add Tour Details View  -->
                 <fx:include source="TourDetailsView.fxml" />
 
-    <!--  Add Tour Log View  -->
+                <!--  Add Tour Log View  -->
                 <fx:include source="TourLogView.fxml" />
             </items>
         </SplitPane>

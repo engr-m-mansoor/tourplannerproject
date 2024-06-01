@@ -9,8 +9,24 @@ import javafx.fxml.JavaFXBuilderFactory;
 import javafx.scene.Scene;
 import javafx.scene.image.WritableImage;
 import javafx.stage.Stage;
+import persistence.IPersistence;
+import persistence.PersistencePostGres;
+import presentation.controller.ControllerFactory;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.JavaFXBuilderFactory;
+import javafx.scene.Scene;
+import javafx.scene.image.WritableImage;
+import javafx.stage.Screen;
+import javafx.stage.Stage;
+import javafx.geometry.Rectangle2D;
 
 import javax.imageio.ImageIO;
+import java.awt.image.RenderedImage;
+import java.io.File;
+import java.io.IOException;
+import javax.imageio.ImageIO;
+import javax.imageio.stream.ImageOutputStream;
 import java.awt.image.RenderedImage;
 import java.io.File;
 import java.io.IOException;
@@ -25,9 +41,20 @@ public class Main extends Application {
         FXMLLoader fxmlLoader = getFxmlLoader(factory);
         Scene scene = new Scene(fxmlLoader.load(), 1200, 800);
         scene.getStylesheets().add(String.valueOf(getClass().getResource("StringConcatenation.css")));
+
         primaryStage.setTitle("Tourplanner");
         primaryStage.setScene(scene);
-        primaryStage.setMinWidth(400);
+
+        // Set minimum and maximum window size
+        primaryStage.setMinWidth(300);
+        primaryStage.setMinHeight(200);
+        primaryStage.setMaxWidth(1200);
+        primaryStage.setMaxHeight(800);
+
+        // Center the window on the screen
+        Rectangle2D screenBounds = Screen.getPrimary().getVisualBounds();
+        primaryStage.setX((screenBounds.getWidth() - 1200) / 2);
+        primaryStage.setY((screenBounds.getHeight() - 800) / 2);
         primaryStage.show();
         this.scene = scene;
     }
@@ -57,7 +84,7 @@ public class Main extends Application {
             File myObj = new File("test.png");
             if (myObj.createNewFile()) {
                 System.out.println("File created: " + myObj.getName());
-                ImageIO.write((RenderedImage) img, "png", new File("what"));
+                ImageIO.write((RenderedImage) img, "png", (ImageOutputStream) new File("what"));
 
             } else {
                 System.out.println("File already exists.");

@@ -1,5 +1,7 @@
 package presentation.controller;
 
+import javafx.scene.control.Alert;
+import javafx.scene.control.TextArea;
 import service.ServiceFactory;
 import service.IService;
 import javafx.event.ActionEvent;
@@ -31,6 +33,9 @@ public class TourEntryController implements Initializable {
     public Label toursLabel;
     @FXML
     public TextField inputTour;
+    @FXML
+    public TextField inputDescription;
+
 
     public TourEntryController(TourEntryModel tourEntryModel) {
         this.tourEntryModel = tourEntryModel;
@@ -41,14 +46,28 @@ public class TourEntryController implements Initializable {
         tourNames.remove(name);
     }
 
-    //Adds a new tour to the ListView and creates the Tour in the DB
     public void addTour(ActionEvent actionEvent) throws SQLException, IOException {
-        if(tourNames.contains(this.tourEntryModel.getTourName())){
+        String tourName = this.tourEntryModel.getTourName();
+        if (tourNames.contains(tourName)) {
+            // Tour already exists
             log.info("Cannot add this Tour. Tour already exists!");
-        }else{
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error");
+            alert.setHeaderText("Tour Already Exists");
+            alert.setContentText("The tour '" + tourName + "' already exists!");
+            alert.showAndWait();
+        } else {
+            // Add the tour
             this.newTourListener.accept(this.tourEntryModel);
             tourEntryModel.createTour(this.tourEntryModel);
-            tourNames.add(this.tourEntryModel.getTourName());
+            tourNames.add(tourName);
+
+            // Show success message
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Success");
+            alert.setHeaderText("Tour Added Successfully");
+            alert.setContentText("The tour '" + tourName + "' has been added successfully!");
+            alert.showAndWait();
         }
     }
 

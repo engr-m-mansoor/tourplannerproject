@@ -24,4 +24,6 @@ public interface IService {
     void saveTourLogs(TourLogCellModel tourLogs, String tourModelName);
     ObservableList<TourLogCellModel> getAllTourLogs(String tourName);
     void savePDF();
+
+    String searchtour(String searchQuery);
 }

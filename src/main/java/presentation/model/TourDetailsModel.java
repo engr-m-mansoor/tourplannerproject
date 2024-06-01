@@ -236,4 +236,12 @@ public class TourDetailsModel {
         setTourDetailImg(image);
         this.tourModel = currentTourModel;
     }
+
+    public boolean getWorkMode() {
+            return workingMode.get();
+        }
+    public BooleanProperty workingModeProperty() {
+        return workingMode;
+    }
+
 }

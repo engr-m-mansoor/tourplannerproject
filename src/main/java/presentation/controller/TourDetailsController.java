@@ -1,5 +1,6 @@
 package presentation.controller;
 
+import javafx.scene.control.Alert;
 import service.ServiceFactory;
 import service.ConfigurationManager;
 import service.IService;
@@ -80,21 +81,37 @@ public class TourDetailsController implements Initializable {
 
     Logger log = LogManager.getLogger(TourDetailsController.class);
 
+
     public void editMode(ActionEvent actionEvent) {
-        //Change to edit mode when the button is clicked
-        if(this.tourDetailsModel.getEditMode() == true){
+        if (this.tourDetailsModel.getEditMode()) {
+            // If currently in edit mode, switch to view mode
             this.tourDetailsModel.setEditMode(false);
             this.tourDetailsModel.setEditButton("Edit");
             this.tourDetailsModel.setWorkMode(true);
             this.tourDetailsModel.resetTourModel();
-        }else{
+            resetFields();
+            saveButton.setDisable(true); // Disable save button
+        } else {
+            // If currently in view mode, switch to edit mode
             this.tourDetailsModel.setEditMode(true);
             this.tourDetailsModel.setEditButton("Cancel");
             this.tourDetailsModel.setWorkMode(false);
+            saveButton.setDisable(false); // Enable save button
         }
         log.info("State of Tour Details is flipped");
     }
 
+    private void resetFields() {
+        tourName.setText("");
+        tourDesc.setText("");
+        tourFrom.setText("");
+        tourTo.setText("");
+        tourTransport.setText("");
+        tourEstTime.setText("");
+        tourInfo.setText("");
+        tourRating.setRating(0);
+        // Reset other fields...
+    }
     public void saveTour(ActionEvent actionEvent) throws IOException, SQLException {
         //Save tour when the save button is clicked
         //with validation
@@ -128,10 +145,28 @@ public class TourDetailsController implements Initializable {
                         this.tourDetailsModel.setWorkMode(true);
                         //Update Tour in DB
                         manager.updateTourDetails(this.tourDetailsModel.getTourDesc(), this.tourDetailsModel.getTourFrom(), this.tourDetailsModel.getTourTo(), this.tourDetailsModel.getTourTransport(), this.tourDetailsModel.getTourDistance(), this.tourDetailsModel.getTourEstTime(), this.tourDetailsModel.getTourInfo(), this.tourDetailsModel.getTourName(), this.tourDetailsModel.getTourRating());
-                    }else{
+                    } else if(!manager.getMap(this.tourDetailsModel.getTourName(), this.tourDetailsModel.getTourFrom(), this.tourDetailsModel.getTourTo())){
+                        //Save Map for Tour
+                        String path = ConfigurationManager.GetConfigProperty("FileAccessStoragePath");
+                        File file = new File(path + this.tourDetailsModel.getTourName() + ".jpg");
+                        Image image = new Image(file.toURI().toString());
+                        //Get distance from API
+                        String distance = "100";
+                        this.tourDetailsModel.setTourDistance(distance + " km");
+                        this.tourDetailsModel.setTourDetailImg(image);
+                        this.tourDetailsModel.setEditMode(false);
+                        this.tourDetailsModel.setEditButton("Edit");
+                        this.tourDetailsModel.setWorkMode(true);
+                        //Update Tour in DB
+                        manager.updateTourDetails(this.tourDetailsModel.getTourDesc(), this.tourDetailsModel.getTourFrom(), this.tourDetailsModel.getTourTo(), this.tourDetailsModel.getTourTransport(), this.tourDetailsModel.getTourDistance(), this.tourDetailsModel.getTourEstTime(), this.tourDetailsModel.getTourInfo(), this.tourDetailsModel.getTourName(), this.tourDetailsModel.getTourRating());
+                        showAlert(Alert.AlertType.INFORMATION, "Tour saved successfully.");
+                    }
+
+                    else{
                         log.info("Input from Fields is not valid");
                         //Show new Screen, input was not valid
                         TourDetailsController.inputNotValidBox(false);
+                        showAlert(Alert.AlertType.INFORMATION, "Update failed. Input from Fields is not valid.");
                     }
                 }
             }
@@ -182,6 +217,9 @@ public class TourDetailsController implements Initializable {
         this.editButton.textProperty().bindBidirectional(this.tourDetailsModel.getEditButtonProperty());
         this.imageView.imageProperty().bindBidirectional(this.tourDetailsModel.getImageProperty());
 
+        // Initialize buttons
+        saveButton.setDisable(true); // Initially disabled
+
     }
 
     //Show new scene depending on if the input is valid
@@ -208,14 +246,21 @@ public class TourDetailsController implements Initializable {
     public boolean inputAreValid(){
         String time = this.tourDetailsModel.getTourEstTime();
         try{
-            if(this.tourDetailsModel.getTourEstTime() != null){
-                LocalTime.parse(time);
-            }
+//            if(this.tourDetailsModel.getTourEstTime() != null){
+////                LocalTime.parse(time);
+//            }
             return true;
         }
         catch (DateTimeParseException | NullPointerException e){
             System.out.println(e.getMessage());
             return false;
         }
+    }
+    private void showAlert(Alert.AlertType alertType, String message) {
+        Alert alert = new Alert(alertType);
+        alert.setTitle("Tour Save Status");
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.showAndWait();
     }
 }

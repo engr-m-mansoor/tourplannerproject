@@ -2,11 +2,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<HBox xmlns:fx="http://javafx.com/fxml" fx:id="box" fx:controller="presentation.controller.TourItemController">
+<HBox xmlns:fx="http://javafx.com/fxml" fx:id="box" fx:controller="presentation.controller.TourItemController" style="-fx-background-color: #CCFFCC;">
     <children>
-        <Label  fx:id="name" style="-fx-label-padding: 10; -fx-alignment: center-left"/>
-        <Label  fx:id="price" style="-fx-label-padding: 10; -fx-alignment: center-left"/>
+        <Label fx:id="name" style="-fx-label-padding: 10; -fx-alignment: center-left; -fx-text-fill: black; -fx-font-weight: bold;"/>
+        <Label fx:id="price" style="-fx-label-padding: 10; -fx-alignment: center-left"/>
         <Region HBox.hgrow="ALWAYS"></Region>
-        <Button text="delete" onAction="#onDeleteTour" style="-fx-label-padding: 10; -fx-alignment: center-right" />
+        <Button text="Delete (-)" onAction="#onDeleteTour" style="-fx-label-padding: 10; -fx-alignment: center-right; -fx-text-fill: red; -fx-font-weight: bold; -fx-background-color: #FFCCCC;" />
     </children>
 </HBox>
+

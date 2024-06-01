@@ -21,6 +21,7 @@ public class TourListController implements Initializable{
     private TourDetailsModel tourDetailsModel;
     private TourLogModel tourLogModel;
 
+
     @FXML
     public ListView<TourModel> listView = new ListView<>();
     private IService manager = ServiceFactory.GetManager();
@@ -52,6 +53,7 @@ public class TourListController implements Initializable{
                 ToursListView -> new TourItemModel(p -> this.deleteProduct(p)));
     }
 
+
     private void deleteProduct(TourModel model) {
         String path;
         try {
@@ -75,6 +77,7 @@ public class TourListController implements Initializable{
             tourDetailsModel.setTourModel(tourModelList);
             tourLogModel.setTourModel(tourModelList);
         }
+
     }
 
     public void importData(ActionEvent actionEvent) {

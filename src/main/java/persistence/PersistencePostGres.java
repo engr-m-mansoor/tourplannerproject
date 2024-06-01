@@ -7,10 +7,13 @@ import org.apache.logging.log4j.Logger;
 import presentation.model.TourEntryModel;
 import presentation.model.TourLogCellModel;
 import presentation.model.TourModel;
+import service.ConfigurationManager;
 
+import java.io.FileNotFoundException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 public class PersistencePostGres implements IPersistence {
 
@@ -25,35 +28,16 @@ public class PersistencePostGres implements IPersistence {
         }
     }
 
-//    @Override
-//    public boolean createConnection() throws FileNotFoundException, SQLException {
-//        String url = ConfigurationManager.GetConfigProperty("PostgresSqlConnectionString");
-//        String user = ConfigurationManager.GetConfigProperty("user");
-//        String password = ConfigurationManager.GetConfigProperty("pwd");
-//        Properties props = new Properties();
-//        props.setProperty("user", user);
-//        props.setProperty("password", password);
-//        con = DriverManager.getConnection(url, props);
-//        return isConnected();
-//    }
-
     @Override
-    public boolean createConnection() {
-        try {
-            String url = "jdbc:mysql://localhost:3306/tour";
-            String user = "root";
-            String password = "abcd1234";
-            con = DriverManager.getConnection(url, user, password);
-            if (con != null) {
-                return true;
-            } else {
-                log.error("Failed to establish connection. Connection object is null.");
-                return false;
-            }
-        } catch (SQLException e) {
-            log.error("Error creating connection: " + e.getMessage());
-            return false;
-        }
+    public boolean createConnection() throws FileNotFoundException, SQLException, FileNotFoundException {
+        String url = ConfigurationManager.GetConfigProperty("PostgresSqlConnectionString");
+        String user = ConfigurationManager.GetConfigProperty("user");
+        String password = ConfigurationManager.GetConfigProperty("pwd");
+        Properties props = new Properties();
+        props.setProperty("user", user);
+        props.setProperty("password", password);
+        con = DriverManager.getConnection(url, props);
+        return isConnected();
     }
 
 
@@ -263,11 +247,17 @@ public class PersistencePostGres implements IPersistence {
 
     @Override
     public ObservableList<TourLogCellModel> getAllTourLogs(String tourName) {
-        String sql = "SELECT * FROM tours_logs WHERE tour_id = ?";
+        // Corrected SQL query with a subquery to get the tour_id
+        String sql = "SELECT * FROM tours_logs WHERE tour_id = (SELECT id FROM tours WHERE name = ?)";
         try (PreparedStatement ps = con.prepareStatement(sql)) {
-            ps.setInt(1, getIdFromName(tourName));
+            // Set the tourName parameter in the PreparedStatement
+            ps.setString(1, tourName);
+
             try (ResultSet rs = ps.executeQuery()) {
+                // Create an ObservableList to store the fetched logs
                 ObservableList<TourLogCellModel> tourLogs = FXCollections.observableArrayList();
+
+                // Iterate through the result set and populate the tourLogs list
                 while (rs.next()) {
                     TourLogCellModel temp = new TourLogCellModel();
                     temp.setDate(rs.getString("date"));
@@ -277,13 +267,19 @@ public class PersistencePostGres implements IPersistence {
                     temp.setRating(rs.getString("rating"));
                     tourLogs.add(temp);
                 }
+
+                // Return the list of logs
                 return tourLogs;
             }
         } catch (SQLException e) {
+            // Log the error if any exception occurs
             log.error("Could not fetch all Tour Logs from DB", e);
         }
+
+        // Return null if an error occurs or no logs are found
         return null;
     }
+
 
     @Override
     public ObservableList<TourModel> getAllTours() {

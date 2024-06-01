@@ -12,39 +12,37 @@ import java.net.URL;
 
 public class MapQuestManager {
 
-    public static String requestRoute(String start, String end){
+    private static final Logger log = LogManager.getLogger(MapQuestManager.class);
+
+    public static String requestRoute(String start, String end) {
         HttpURLConnection connection = null;
-        try{
+        try {
             String key = ConfigurationManager.GetConfigProperty("MapKey");
-            URL url = new URL("http://www.mapquestapi.com/directions/v2/route?key=" + key + "&from="+start+"&to=" + end);
+            URL url = new URL("https://openrouteservice.org/dev/v2/directions/user?key=" + key + "&from=" + start + "&to=" + end);
             connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
-            connection.setRequestProperty("Content-Length",
-                    Integer.toString(0));
+            connection.setRequestProperty("Content-Length", Integer.toString(0));
             connection.setRequestProperty("Content-Language", "en-US");
 
             connection.setUseCaches(false);
             connection.setDoOutput(true);
-            DataOutputStream wr = new DataOutputStream(
-                    connection.getOutputStream());
-            wr.writeBytes("");
-            wr.close();
-
-            //Get Response
-            InputStream is = connection.getInputStream();
-            BufferedReader rd = new BufferedReader(new InputStreamReader(is));
-            StringBuilder response = new StringBuilder(); // or StringBuffer if Java version 5+
-            String line;
-            while ((line = rd.readLine()) != null) {
-                response.append(line);
-                response.append('\r');
+            try (DataOutputStream wr = new DataOutputStream(connection.getOutputStream())) {
+                wr.writeBytes("");
             }
-            rd.close();
-            return response.toString();
+
+            // Get Response
+            InputStream is = connection.getInputStream();
+            try (BufferedReader rd = new BufferedReader(new InputStreamReader(is))) {
+                StringBuilder response = new StringBuilder();
+                String line;
+                while ((line = rd.readLine()) != null) {
+                    response.append(line);
+                    response.append('\r');
+                }
+                return response.toString();
+            }
         } catch (Exception e) {
-            Logger log = LogManager.getLogger(MapQuestManager.class);
-            log.error("Request route failed");
-            e.printStackTrace();
+            log.error("Request route failed", e);
             return null;
         } finally {
             if (connection != null) {
@@ -53,53 +51,48 @@ public class MapQuestManager {
         }
     }
 
-
-    public static BufferedImage requestRouteImage(String start, String end){
-        Logger log = LogManager.getLogger(MapQuestManager.class);
-        String jsonString =requestRoute(start, end);
-        if(jsonString == null) {
+    public static BufferedImage requestRouteImage(String start, String end) {
+        String jsonString = requestRoute(start, end);
+        if (jsonString == null) {
             log.error("JsonObject is null");
             return null;
         }
         JSONObject obj = new JSONObject(jsonString);
-        if(!obj.getJSONObject("route").has("sessionId") || !obj.getJSONObject("route").has("boundingBox")) {
+        if (!obj.getJSONObject("route").has("sessionId") || !obj.getJSONObject("route").has("boundingBox")) {
             log.error("Wrong JsonObject");
             return null;
         }
         String session = obj.getJSONObject("route").getString("sessionId");
         JSONObject boundingBox = obj.getJSONObject("route").getJSONObject("boundingBox");
         try {
-            String params;
-            params = "&size=700,300";
-            params += "&defaultMarker=none";
-            params += "&zoom=11";
-            params += "&rand=737758036";
-            params += "&session="+session;
+            StringBuilder params = new StringBuilder("&size=700,300");
+            params.append("&defaultMarker=none");
+            params.append("&zoom=11");
+            params.append("&rand=737758036");
+            params.append("&session=").append(session);
             String box = boundingBox.getJSONObject("lr").getFloat("lat") + "," + boundingBox.getJSONObject("lr").getFloat("lng") + "," + boundingBox.getJSONObject("ul").getFloat("lat") + "," + boundingBox.getJSONObject("ul").getFloat("lng");
-            params += "&boundingBox="+box;
-
+            params.append("&boundingBox=").append(box);
 
             String key = ConfigurationManager.GetConfigProperty("MapKey");
             URL url = new URL("http://www.mapquestapi.com/staticmap/v5/map?key=" + key + params);
-            InputStream is;
-            try {
-                is = url.openStream();
-            }
-            catch (Exception e){
-                log.error("Cant open Stream: " + e.getMessage());
+            try (InputStream is = url.openStream()) {
+                return ImageIO.read(is);
+            } catch (IOException e) {
+                log.error("Cannot open stream: " + e.getMessage());
                 return null;
             }
-            return ImageIO.read(is);
-
         } catch (IOException e) {
-            log.error("Cant create URL: " + e.getMessage());
-            e.printStackTrace();
+            log.error("Cannot create URL: " + e.getMessage(), e);
             return null;
         }
     }
 
-    public static String getRouteDistance(String start, String end){
-        String jsonString =requestRoute(start, end);
+    public static String getRouteDistance(String start, String end) {
+        String jsonString = requestRoute(start, end);
+        if (jsonString == null) {
+            log.error("JsonObject is null");
+            return "0";
+        }
         JSONObject obj = new JSONObject(jsonString);
         return String.valueOf(obj.getJSONObject("route").getFloat("distance"));
     }

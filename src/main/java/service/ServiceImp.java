@@ -131,13 +131,18 @@ public class ServiceImp implements IService {
             document.addPage(page);
             document.save("test.pdf");
             document.close();
-            Main.getImg();
+            Main.getUserAgentStylesheet();
             log.info("PDF is saved");
         } catch (IOException e) {
             log.error("PDF could not be saved");
             log.error(e.getMessage());
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public String searchtour(String searchQuery) {
+        return "";
     }
 }
 

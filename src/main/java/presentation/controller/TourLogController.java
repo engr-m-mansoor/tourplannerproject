@@ -32,10 +32,10 @@ public class TourLogController implements Initializable {
         //Bind text value
         this.logLabel.textProperty().bindBidirectional(this.tourLogModel.getTourLogProperty());
 
-        //Set up Listview of Logs
+        // Set up ListView of Logs
         this.listView.setItems(this.tourLogModel.getTourLogs());
-        this.listView.setCellFactory(
-                ToursListView -> new TourLogItemModel(p -> this.deleteProduct(p)));
+        this.listView.setCellFactory(ToursListView -> new TourLogItemModel(p -> this.deleteProduct(p)));
+
     }
 
     private void deleteProduct(TourLogCellModel model) {

@@ -5,12 +5,12 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.control.TextField?>
 
-<HBox xmlns:fx="http://javafx.com/fxml" fx:controller="presentation.controller.TourEntryController">
-    <Label fx:id="toursLabel" minWidth="-Infinity" text="Tours:"></Label>
+<HBox xmlns:fx="http://javafx.com/fxml" fx:controller="presentation.controller.TourEntryController" style="-fx-background-color: #FFCCCC;">
+    <Label fx:id="toursLabel" minWidth="-Infinity" text="Tour Details:" />
     <StackPane>
-        <TextField fx:id="inputTour"></TextField>
+        <TextField fx:id="inputTour" />
     </StackPane>
     <StackPane>
-        <Button text="+" styleClass="mainButton" onAction="#addTour"></Button>
+        <Button text="Add" styleClass="mainButton" onAction="#addTour" style="-fx-font-weight: bold; -fx-background-color: #99CCFF; -fx-text-fill: black;" />
     </StackPane>
 </HBox>

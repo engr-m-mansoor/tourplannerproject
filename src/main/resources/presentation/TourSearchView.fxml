@@ -5,11 +5,12 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.control.Button?>
+
 <HBox GridPane.rowIndex="3" GridPane.columnIndex="1" GridPane.columnSpan="3" xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml" fx:controller="presentation.controller.TourSearchController">
+      xmlns:fx="http://javafx.com/fxml" fx:controller="presentation.controller.TourSearchController" style="-fx-background-color: yellow;">
     <Label contentDisplay="CENTER" text="Search:" HBox.hgrow="ALWAYS"/>
     <TextField fx:id="searchInput"></TextField>
-    <Button text="Search" fx:id="searchButton" styleClass="saveButton" onAction="#searchTours"></Button>
-    <Pane HBox.hgrow="ALWAYS" />
-    <Button text="Export PDF" fx:id="pdfButton" styleClass="saveButton" onAction="#savePDF"></Button>
+    <Button text="Search" fx:id="searchButton" styleClass="saveButton" onAction="#searchTours" style="-fx-font-weight: bold; -fx-background-color: #007bff; -fx-text-fill: white;" />
+    <Pane HBox.hgrow="NEVER" prefWidth="10" />
+    <Button text="Export PDF" fx:id="pdfButton" styleClass="saveButton" onAction="#savePDF" style="-fx-font-weight: bold;" />
 </HBox>

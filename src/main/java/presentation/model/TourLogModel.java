@@ -12,7 +12,7 @@ public class TourLogModel {
     private TourModel tourModel;
 
     public TourLogModel(){
-        tourLog = new SimpleStringProperty("Log view");
+        tourLog = new SimpleStringProperty("");
     }
 
     public StringProperty getTourLogProperty() {
@@ -50,6 +50,10 @@ public class TourLogModel {
                 tourLogs.add(tourLog);
             });
             this.tourModel = tourModel;
+
+
+
+
         }
     }
 

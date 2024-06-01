@@ -1,5 +1,7 @@
 package presentation.controller;
 
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import service.ServiceFactory;
 import service.IService;
 import javafx.event.ActionEvent;
@@ -36,12 +38,32 @@ public class TourItemController {
         this.onDeleteProductConsumer = listener;
     }
 
-    //Deletes the Tour from the Listview and from the DB
-    //Deletes IMG and TourLogs as well
     public void onDeleteTour(ActionEvent actionEvent) throws SQLException, IOException {
-        TourEntryController.deleteTourName(this.tourModel.getTourName());
-        this.onDeleteProductConsumer.accept(this.tourModel);
-        manager.deleteTourItem(this.tourModel);
-        tourModel.deleteImg("src/main/resources/TourImages/" + this.tourModel.getTourName() + ".jpg");
-    }
-}
+        // Show confirmation dialog
+        Alert confirmationAlert = new Alert(Alert.AlertType.CONFIRMATION);
+        confirmationAlert.setTitle("Confirm Deletion");
+        confirmationAlert.setHeaderText("Delete Tour");
+        confirmationAlert.setContentText("Are you sure you want to delete the tour '" + this.tourModel.getTourName() + "'?");
+
+        // Wait for user response
+        confirmationAlert.showAndWait().ifPresent(response -> {
+            if (response == ButtonType.OK) {
+                try {
+                    // Delete the tour
+                    TourEntryController.deleteTourName(this.tourModel.getTourName());
+                    this.onDeleteProductConsumer.accept(this.tourModel);
+                    manager.deleteTourItem(this.tourModel);
+                    tourModel.deleteImg("src/main/resources/TourImages/" + this.tourModel.getTourName() + ".jpg");
+
+                    // Show deletion confirmation
+                    Alert deletionAlert = new Alert(Alert.AlertType.INFORMATION);
+                    deletionAlert.setTitle("Tour Deleted");
+                    deletionAlert.setHeaderText(null);
+                    deletionAlert.setContentText("The tour '" + this.tourModel.getTourName() + "' has been deleted successfully.");
+                    deletionAlert.showAndWait();
+                } catch (SQLException | IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }}

@@ -10,14 +10,16 @@
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.image.ImageView?>
 <?import org.controlsfx.control.Rating?>
-<VBox styleClass="detailsBox" minHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.TourDetailsController">
+<VBox styleClass="detailsBox" minHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.TourDetailsController" style="-fx-background-color: lightblue;">
+    <TabPane tabClosingPolicy="UNAVAILABLE" style="-fx-tab-text-color: black; -fx-tab-background-color: purple;">
+        <Tab>
+            <graphic><Label text="General" style="-fx-font-weight: bold; -fx-text-fill: black;" /></graphic>
 
-    <TabPane tabClosingPolicy="UNAVAILABLE">
-        <Tab text="Details">
             <VBox>
                 <HBox>
                     <Pane HBox.hgrow="ALWAYS" />
-                    <Button text="Edit" fx:id="editButton" styleClass="editButton" onAction="#editMode"></Button>
+                    <Button text="Edit" fx:id="editButton" styleClass="editButton" onAction="#editMode" style="-fx-font-weight: bold; -fx-background-color: #007bff; -fx-text-fill: white;" />
+
                 </HBox>
                 <HBox >
                     <Label text="Tour name:"></Label>
@@ -78,11 +80,14 @@
                         <Rating fx:id="tourRating" layoutX="12.0" layoutY="54.0" />
                     </children>
                     <Pane HBox.hgrow="ALWAYS" />
-                    <Button text="Save" fx:id="saveButton" styleClass="saveButton" onAction="#saveTour"></Button>
+                    <Button text="Save" fx:id="saveButton" styleClass="saveButton" onAction="#saveTour" style="-fx-font-weight: bold; -fx-background-color: #28a745; -fx-text-fill: white;" />
                 </HBox>
             </VBox>
         </Tab>
-        <Tab text="Map" fx:id="map_tab" >
+        <Tab fx:id="map_tab" >
+            <graphic>
+                <Label text="Route" style="-fx-font-weight: bold; -fx-text-fill: black;" />
+            </graphic>
             <VBox>
                 <ImageView fx:id="imageView" fitWidth="-Infinity" fitHeight="-Infinity">
                 </ImageView>
